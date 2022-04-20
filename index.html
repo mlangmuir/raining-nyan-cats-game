@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Raining Nyan Cats</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="center-div" id="center-div">
+      <div class="app" id="app"></div>
+      <div class="score-div" id="heart-div">
+        <img class="hearts" id="heart-1" src="heart.png"/>
+        <img class="hearts" id="heart-2" src="heart.png"/>
+        <img class="hearts" id="heart-3" src="heart.png"/>
+        <img class="hearts" id="heart-4" src="heart.png"/>
+        <img class="hearts" id="heart-5" src="heart.png"/>
+        <span class="time-text" id="time-text">TIME:<span class="time-clock" id="time-clock">0:00</span></span>
+      </div>
+      <div class="btn-div" id="btn-div">
+        <h2 class="game-title" id="game-title">RAINING NYAN CATS</h2>
+        <p class="instructions" id="instructions">Use the left and right arrow keys to help the burger avoid the nyan cats. You have 5 lives. Your goal is to last as long as possible.</p>
+        <button class="start-btn" id="easy-btn">EASY</button>
+        <button class="start-btn" id="normal-btn">NORMAL</button>
+        <button class="start-btn" id="hard-btn">HARD</button>
+      </div>
+      <div class="game-over" id="game-over">
+        <h2 class="game-over-text" id="game-over-text">GAME OVER</h2>
+        <p class="your-time" id="your-time"></p>
+        <button class="play-again-btn" id="play-again-btn" type="submit">PLAY AGAIN</button>
+      </div>
+      <div class="all-sound-divs" id="song-div"></div>
+      <div class="all-sound-divs" id="power-down-div"></div>
+      <script src="js/data.js"></script>
+      <script src="js/Enemy.js"></script>
+      <script src="js/engine-utilities.js"></script>
+      <script src="js/Engine.js"></script>
+      <script src="js/Player.js"></script>
+      <script src="js/main.js"></script>
+    </div>
+  </body>
+</html>

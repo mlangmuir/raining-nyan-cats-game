@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-image: url(nyan-cat-bg.png);
+    object-fit: cover;
+    background-size: contain;
+}
+
+.app {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+.center-div {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+.btn-div {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    position: absolute;
+    left: 15px;
+    top: 100px;
+    width: 95%;
+    text-align: center;
+}
+
+.game-title {
+    font-size: 45px;
+    color: pink;
+}
+
+.instructions {
+    font-size: 21px;
+    line-height: 35px;
+}
+
+.start-btn {
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    border-radius: 8px;
+    margin-top: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 30%;
+    font-size: 20px;
+}
+
+.start-btn:hover {
+    cursor: pointer;
+    transform: scale(0.95);
+}
+
+#easy-btn {
+    background-color: pink;
+}
+
+#normal-btn {
+    background-color: green;
+}
+
+#hard-btn {
+    background-color: red;
+}
+
+.score-div {
+    z-index: 999;
+    position: absolute;
+    top: 0px;
+    height: 11%;
+    width: 100%;
+    background-color: red;
+}
+
+.hearts {
+    object-fit: cover;
+    width: 55px;
+    height: 20px;
+    margin-top: 10px;
+
+}
+
+.time-text {
+    display: flex;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 22px;
+    padding-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+.game-over {
+    display: none;
+    position: absolute;
+    top: 200px;
+    left: 60px;
+    z-index: 999;
+    padding: 50px 40px;
+    text-align: center;
+    border-radius: 8px;
+    position: absolute;
+    background-color: red;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 24px;
+}
+
+.your-time {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+}
+
+.play-again-btn {
+    background-color: pink;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 8px;
+}
+
+.play-again-btn:hover {
+    cursor: pointer;
+    transform: scale(0.95);
+}
